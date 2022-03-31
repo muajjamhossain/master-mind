@@ -1,0 +1,78 @@
+@media (min-width:992px) {
+    .categories_menu_toggle>ul>li {
+        position: unset;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu {
+        width: 245px;
+        overflow: visible;
+        padding: 20px 14px;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li {
+        width: 100%;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu .menu_item_children {
+        font-weight: 400;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li ul {
+        position: absolute;
+        left: 232px;
+        top: 0;
+        background: white;
+        box-shadow: -4px 0px 10px 0px #00000017;
+        padding: 20px 0px;
+        min-height: 100%;
+        width: 245px;
+        visibility: hidden;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li:hover ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li ul li {
+        padding: 0 13px;
+        line-height: 28px;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li>a,
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li>ul>li>a {
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: capitalize;
+        display: block;
+        /* margin-bottom: 10px; */
+        margin: 0;
+        line-height: 38px;
+        padding: 0px 16px;
+    }
+
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li:hover>a,
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li>ul>li:hover>a {
+        background: #005B90;
+        color: white;
+    }
+    .categories_menu_toggle>ul>li ul.categories_mega_menu>li>a i{
+        float: right;
+        line-height: 36px;
+    }
+
+    .categories_menu_toggle ul li ul.categories_mega_menu>li,
+    .categories_menu_toggle ul li ul.categories_mega_menu>li:first-child {
+        padding: 0;
+    }
+
+    .categories_menu_toggle>ul>li:hover ul.categories_mega_menu {
+        min-height: 100%;
+    }
+
+    .categories_menu_toggle>ul>li:hover>a {
+        color: #ffffff;
+        background: #005B90;
+    }
+}

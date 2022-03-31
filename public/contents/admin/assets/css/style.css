@@ -1,0 +1,308 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+img{
+  border: 0px;
+}
+
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clr{
+  clear: both;
+}
+
+body{
+
+}
+
+.card_top_title{
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.card_top_button{
+    text-transform: uppercase;;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.custom_table{
+
+}
+
+.custom_table thead{
+    background-color: #3c3c3c;
+}
+
+.custom_table tr{
+
+}
+
+.custom_table tr th{
+    color: #fff;
+    border:1px solid #3c3c3c;
+    font-size: 14px;
+}
+
+.custom_table tr td{
+    font-size: 14px;
+}
+
+.bread_part{
+    border-bottom:1px solid #ddd;
+    margin: 0px -30px 30px;
+}
+
+.bread_col{
+    padding: 0px 30px;
+}
+
+.bread_title{
+    text-transform: uppercase;
+}
+
+.view_icon{
+  color: #505458;
+}
+
+.edit_icon{
+  color: #117a8b;
+}
+
+.delete_icon{
+  color: #ef5350;
+}
+
+.restore_icon{
+  color: #008000;
+}
+
+.card_footer_expode a{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card_footer_button button{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card_form{
+    padding-top: 40px;
+}
+
+.custom_form_group{
+
+}
+
+.custom_form_group label.control-label{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: -10px;
+    font-size: 14px;
+}
+
+.req_star{
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.user-details .user-info a.dropdown-toggle{
+    font-size: 13px;
+}
+
+.custom_form_group{
+/*  */
+}
+
+.footer{
+    font-size: 12px;
+}
+
+/*Image Upload code start*/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background:#fff;
+  cursor: inherit;
+  display: block;
+}
+
+#img-upload{
+width:50%!important;
+max-height: 200px;
+margin-top: 20px;
+}
+
+#img-upload-favicon{
+width:25%!important;
+max-height: 80px;
+margin-top: 20px;
+}
+
+#img-upload-flogo{
+width:50%!important;
+max-height: 200px;
+margin-top: 20px;
+}
+
+.btnu_browse{
+border-radius:3px;
+text-transform:uppercase;
+}
+
+.input-group-btn{
+  border:1px solid #ddd;
+  border-right: 0px;
+}
+
+.basic_favicon_img{
+    max-height: 50px;
+}
+
+/*view table code start*/
+.custom_view_table{
+    margin-top: 20px;
+}
+
+.custom_view_table tr{
+
+}
+
+.custom_view_table tr td:first-child{
+    font-weight: bold;
+    text-align: right;
+    width: 28%;
+}
+
+.custom_view_table tr td:last-child{
+    font-weight: normal;
+    text-align: left;
+    width: 70%;
+}
+
+.mini_stat_info{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.has-error .invalid-feedback{
+    display: block;
+}
+
+.has-error .invalid-feedback strong{
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.table_image_40{
+    width: 40px;
+    max-height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+}
+
+.table_image_50bl{
+    width: 50px;
+    max-height: 50px;
+    border-radius: 2px;
+}
+
+.table_image_200{
+  width: 200px;
+  max-height: 200px;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+}
+
+.table_image_100{
+  width: 100px;
+  max-height: 100px;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+}
+
+.table_image_logo{
+  width: 150px;
+  max-height: 150px;
+  border-radius: 2px;
+}
+
+.table_image_ban{
+    height: 40px;
+    max-width: 100px;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+}
+
+.table_image_ban_big{
+    height: 100px;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+}
+
+.mb-5{
+  margin-bottom: 5px;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable{
+    margin-top: 1px;
+}
+
+.note-editor.note-frame.codeview .note-editing-area .note-codable{
+    margin-top: 1px;
+}
+
+.note-toolbar-wrapper .card-header{
+    padding: 8px 10px;
+}
+
+.alertsuccess{
+    color: #000;
+}
+
+.alerterror{
+    color: #000;
+}
+
+#sidebar-menu > ul > li{
+    border-bottom: 1px solid #f1f1f1;
+}
